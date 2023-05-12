@@ -16,7 +16,7 @@ import {
   LOG_PROVIDER,
 } from './logger.constant';
 import { NestLoggerService } from './logger-nest.service';
-import { DiscoveryModule, DiscoveryService, Reflector } from '@nestjs/core';
+import { DiscoveryModule, DiscoveryService } from '@nestjs/core';
 import { InjectLogger } from './decorators/logger.inject';
 import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
 import { isFunction, isUndefined } from 'lodash';
