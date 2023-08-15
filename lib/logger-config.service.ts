@@ -15,7 +15,7 @@ const getLogFilePath = (params: LogConfig) => {
   const { path, name } = params;
   return {
     run: `${path}/run/r${name}.log`,
-    debug: `${path}/debug/${name}/d${name}.log`,
+    debug: `${path}/debug/d${name}.log`,
     interface: `${path}/interface/i${name}.log`,
   };
 };
